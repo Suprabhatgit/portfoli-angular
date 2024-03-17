@@ -1,0 +1,24 @@
+<section class="section banner">
+    <div [@bannerTrigger] class="container">
+        <div class="section-box-banner">
+            <div class="content">
+                <div>
+                    <!-- <h1>Hola, mi nombre es</h1> -->
+                    <h1>Hello! My name is</h1>
+                </div>
+                <div class='banner-title'>
+                    <h2 class="text-capitalize">Suprabhat Samanta.</h2>
+                    <h3 class="text-capitalize">Full-Stack developer</h3>
+                </div>
+                <div class='banner-description'>
+                    <p  class="mt-4">A responsible professional with a strong foudation in <span class="underline"> designing and developing</span> responsive web apps. Adept in programming testable, well designed and efficient code with a strong foundation in <span class="underline"> Angular, NEXT, javascript ,typescript, MERN</span> I am committed to deliver high-quality and innovative solution to meet industry standards</p>
+                </div>
+            </div>
+            <div class="div-btn-banner">
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:suprabhatsamanta9@gmail.com" target="_black" class="main-btn text-capitalize">
+                    get in touch
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

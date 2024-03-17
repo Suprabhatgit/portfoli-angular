@@ -9,7 +9,7 @@ import { Title, Meta } from '@angular/platform-browser';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'muffeez-portfolio';
+  title = 'suprabhat-portfolio';
 
   constructor(
     private titleService: Title,
@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
 
    
 
-    this.titleService.setTitle("Suprabhat Samanta- Portfolio");
+    this.titleService.setTitle("Suprabhat Samanta-Portfolio");
     this.metaService.addTags([
       { name: 'keywords', content: 'Frontend , Software Engineer, software, developer' },
       { name: 'description', content: 'As a software engineer with expertise in Frontend, I have a comprehensive understanding of Frontend web development. My strong foundation in JavaScript allows me to effectively work with front-end technologies such as Angular.' },

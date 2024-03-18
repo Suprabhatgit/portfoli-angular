@@ -4,5 +4,6 @@ Hey I am Suprabhat Samanta, a full stack developer. To run this project -
 3) run "npm install --force" in order to install all dependencies for running the application.
 4) run "ng serve --o"  to start the development server and open the default browser.
 5) hope you enjoy the build.
+6) Deployment Link: https://portfoli-angular.vercel.app/
 
 
